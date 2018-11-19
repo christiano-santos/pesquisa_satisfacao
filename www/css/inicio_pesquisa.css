@@ -1,0 +1,45 @@
+.form_inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#417a1a, #bdc91a);
+
+}
+#inicio{
+    background-color: #002C5F;
+    width: 80%;
+    padding: 80px;
+    color: #e5eaea;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Kurale', serif;
+}
+#inicio > p {
+    font-size: 25px;
+}
+#inicio > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#cpf{
+    margin-left: 20px;
+}
+#avançar{
+    margin-top: 20px;
+}
+
+
+.animate-show{
+    opacity: 1;
+}
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: all linear 1s;
+  transition: all linear 1s;
+}
+
+.animate-show.ng-hide {
+  opacity: 0;
+}

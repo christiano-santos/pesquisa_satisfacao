@@ -1,0 +1,19 @@
+<div class="form_inicio">
+  <div id="inicio" >
+        <p>Olá, poderia participar de uma pesquisa de satisfação? Adicione seu
+            CPF e comece. É rápido e prático!
+        </p>
+            <form name="myForm">
+            <!-- <div>
+                <label for="placa">PLACA</label>
+                <input id="placa" placeholder="AAA-0000" ng-model="cpf">
+            </div> -->
+            <div>
+                <label for="cpf">CPF</label>
+                <input id="cpf" name="requiredCpf" ng-cpf required placeholder="000.000.000-00" mask="999.999.999-99" clean="true" ng-model="requiredCpf">
+            </div>
+            <a  id="avançar" ng-show="myForm.requiredCpf.$valid" class="btn btn-success animate-show"  href="#/pergunta1" ng-click="resultadoPesquisa(requiredCpf)" >AVANÇAR 
+                <img src="img/proximo.png" alt="proximo"> </a>
+        </form>
+    </div>
+</div>

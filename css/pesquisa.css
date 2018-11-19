@@ -1,0 +1,30 @@
+#perguntas{
+    background-color: #002C5F;
+    width: 80%;
+    padding: 40px;
+    color: #e5eaea;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Kurale', serif;
+    font-size: 20px;
+}
+label > img{
+    height: 30px;
+}
+.bom{
+   margin-left: 56px;
+}
+.regular{
+    margin-left: 27px;
+}
+.ruim{
+    margin-left: 49px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    
+}
+#finalizar{
+    margin-left: 10px;
+}

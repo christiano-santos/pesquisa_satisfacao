@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="mod_pesquisa">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HMB | Green City  - Pesquisa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/head.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/inicio_pesquisa.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/pesquisa.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css.map" />
+    <link type="image/x-icon" href="http://www.greencityveiculos.com.br/img/site/favicon.png" rel="shortcut icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet"> 
+    <script src="js/angular.js"></script>
+    <script src="js/mod_pesquisa.js"></script>
+    <script src="js/mod_pesquisaCtrl.js"></script>
+    <script src="js/angular-route.js"></script>  
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/bootstrap.min.js.map"></script>
+    <script src="js/routeConfig.js"></script> 
+    <script src="js/angular-animate.min.js"></script>
+    <script src="js/angular-animate.min.js.map"></script>
+    <script src="js/ngMask.min.js"></script>
+    <script src="js/ngMask.min.map"></script>
+    <script src="js/ngCpfCnpj.js"></script>
+
+</head>
+<body ng-controller="mod_pesquisaCtrl">
+    <div ng-include="'view/head.html'"></div>
+    <div ng-view></div>
+    <div ng-include="'view/footer.html'"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<div class="form_inicio">
+    <div id="perguntas">
+        <form>
+        <div class="form-check">
+            <p>
+            <label for="pergunta">
+                1 - De modo geral, como o(a) sr.(a) avalia a qualidade do nosso atendimento? 
+            </label>
+            <br>
+            <input type="radio" value="muito bom" ng-model="pergunta1" >
+            <label class="form-check-label" for="exampleCheck1" >Muito bom <img src="img/rindo.png" alt="muito bom"> </label>
+            <br>
+            <input type="radio" value="bom" ng-model="pergunta1">
+            <label class="form-check-label" for="exampleCheck1">Bom <img class="bom" src="img/feliz.png" alt="bom"> </label>
+            <br>
+            <input type="radio" value="regular" ng-model="pergunta1">
+            <label class="form-check-label" for="exampleCheck1">Regular <img class="regular" src="img/neutro.png" alt="regular"> </label>
+            <br>
+            <input type="radio" value="ruim" ng-model="pergunta1">
+            <label class="form-check-label" for="exampleCheck1">Ruim <img class="ruim" src="img/triste.png" alt="triste"> </label>
+            </p>
+        </div>
+        <div class="botao">
+            <a  id="avançar" class="btn btn-success animate-show" ng-show="pergunta1"  href="#/pergunta2" ng-click="perguntan1(pergunta1)">AVANÇAR <img src="img/proximo.png" alt="proximo"> </a>
+        </div>
+    </form>
+    </div>
+</div>

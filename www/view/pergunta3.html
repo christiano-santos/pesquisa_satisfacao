@@ -1,0 +1,25 @@
+<div class="form_inicio">
+        <div id="perguntas">
+            <form>
+                <div class="form-check">
+                    <p>
+                    <label for="pergunta">
+                        3 - O(A) sr(a) recomendaria nossa concessionária para amigos e parentes?
+                    </label>
+                    <br>
+                    <input type="radio" value="sim" ng-model="pergunta3">
+                    <label class="form-check-label" for="exampleCheck1">Sim <img src="img/rindo.png" alt="sim"></label>
+                    <br>
+                    <input type="radio" value="nao" ng-model="pergunta3">
+                    <label class="form-check-label" for="exampleCheck1">Não <img src="img/triste.png" alt="não"></label>
+                    </p>
+                    <br>
+                    <div class="botao animate-show" ng-show="pergunta3">
+                        <a href="http://greencityveiculos.com.br/" class="btn btn-success" >Conhecer história da Hyundai </a>
+                        <a href="#/final" class="btn btn-success" id="finalizar" ng-click="perguntan3(pergunta3)">Finalizar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
