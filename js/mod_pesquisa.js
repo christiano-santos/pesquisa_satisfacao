@@ -1,0 +1,1 @@
+angular.module("mod_pesquisa", ["ngRoute", "ngAnimate", "ngMask", "ngCpfCnpj"]);
